@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Table Tests</title>
+  </head>
+    <body>
+<h1>HTML Tables</h1>
+<!--Table headings-->
+<h2>Table Headings Ex. 1</h2>
+      <table>
+        <tr>
+          <th></th>
+          <th scope="col">Saturday</th>
+          <th scope="col">Sunday</th>
+        </tr>
+      <tr>
+        <th scope="row">Temperature</th>
+        <td>73</td>
+        <td>81</td>
+      </tr>
+    </table>    
+<!--Table headings-->
+<h2>Table Headings Ex. 2</h2>
+<table>
+ <thead>
+   <tr>
+     <th>heading 1</th>
+     <th>heading 2</th>
+     <th>heading 3</th>
+   </tr>
+ </thead>
+ <tbody>
+   <tr>
+     <td>col 1</td>
+     <td>col 2</td>
+     <td>col 3</td>
+   </tr>
+ </tbody>
+</table>
+<!--Row Span-->
+<h2>Table Row Span element</h2>
+<table>
+  <tr>
+    <th>row 1:</th>
+    <td>col 1</td>
+    <td>col 2</td>
+  </tr>
+  <tr>
+    <th rowspan="2">row 2 (this row will span 2 rows):</th>
+    <td>col 1</td>
+    <td>col 2</td>
+  </tr>
+  <tr>
+    <td>col 1</td>
+    <td>col 2</td>
+  </tr>
+   <tr>
+    <th>row 3:</th>
+    <td>col 1</td>
+    <td>col 2</td>
+  </tr>
+</table>
+<!--Table body element // semantic element that contains table data, like rows and cells <td>, other than table heading and footer-->
+  <h2>Table Body Element (Semantic Only)</h2>
+<table>
+ <tbody>
+   <tr>
+     <td>row 1</td>
+   </tr>
+   <tr>
+     <td>row 2</td>
+   </tr>
+   <tr>
+     <td>row 3</td>
+   </tr>
+ </tbody>
+</table>
+<!--Table heading element-->
+<h2>Table Heading Element Ex. 3</h2>
+<table>
+  <tr>
+    <th>column one</th>
+    <th>column two</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>2</td>
+  </tr>
+</table>
+<!--colspan Attribute-->
+<h2>colspan Element</h2>
+<table>
+  <tr>
+    <th>row 1:</th>
+    <td>col 1</td>
+    <td>col 2</td>
+    <td>col 3</td>
+  </tr>
+  <tr>
+    <th>row 2:</th>
+    <td colspan="2">col 1 (will span 2 columns)</td>
+    <td>col 2</td>
+    <td>col 3</td>
+  </tr>
+</table>
+<!--Table footer element-->
+<h2>Table Footer Element</h2>
+<table>
+ <thead>
+   <tr>
+     <th>heading 1</th>
+     <th>heading 2</th>
+     <th>heading 3</th>
+   </tr>
+ </thead>
+ <tbody>
+   <tr>
+     <td>col 1</td>
+     <td>col 2</td>
+     <td>col 3</td>
+   </tr>
+ </tbody>
+ <tfoot>
+   <tr>
+     <td>summary of col 1</td>
+     <td>summary of col 2</td>
+     <td>summary of col 3</td>
+   </tr>
+ </tfoot>
+</table>
+  </body>
+  </html>
+
+    
