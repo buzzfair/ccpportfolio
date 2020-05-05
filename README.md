@@ -2,6 +2,8 @@
 
 You can see the updated [portfolio on GitHub](https://buzzfair.github.io/ccpportfolio/) to preview the content for this website in Markdown files.
 
+## Note:
+Some HTML code provided by Codecademy, some by me.
 
 ### Support or Contact
 
