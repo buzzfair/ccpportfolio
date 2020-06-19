@@ -1,1 +1,1 @@
-This folder holds a repository of my Javascript code snippets and projects.
+CodePen: my Javascript code snippets, practice exercises and projects.
